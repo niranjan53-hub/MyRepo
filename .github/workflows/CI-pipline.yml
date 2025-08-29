@@ -9,8 +9,7 @@ on:
 jobs:
   build_test:
   run-on: ubuntu-latest
-
-    steps:
+  steps:
     # checkout code from the DevBranch
       - name: checkout code
         uses: actions/checkout@v5.0.0
