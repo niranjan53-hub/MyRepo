@@ -2,9 +2,9 @@ name: CI Pipeline with Security & Quality Scans
  
 on:
   push:
-    branches: [dev]
+    branches: [DevBranch]
   pull_request:
-    branches: [dev]
+    branches: [DevBranch]
  
 jobs:
   build_test:
