@@ -8,7 +8,7 @@ on:
 
 jobs:
   build_test:
-    run-on: ubuntu-latest
+  run-on: ubuntu-latest
 
     steps:
     # checkout code from the DevBranch
